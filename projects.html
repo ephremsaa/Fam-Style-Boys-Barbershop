@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Ephrem Sahle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h1 class="logo">Ephrem</h1>
+        <button id="menuToggle" class="menu-toggle">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><button id="themeToggle" class="theme-btn">🌙</button></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="projects">
+        <h2>My Projects</h2>
+
+        <article class="project-card">
+            <img src="images/project1.jpg" alt="Portfolio project preview">
+            <h3>Personal Portfolio</h3>
+            <p>A responsive portfolio website built using pure HTML, CSS, and JavaScript.</p>
+            <button id="likeBtn">👍 Like</button>
+            <span id="likeCount">0</span>
+        </article>
+
+        <section class="contact">
+            <h3>Contact Me</h3>
+
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input id="name" type="text" required>
+
+                <label for="email">Email</label>
+                <input id="email" type="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <p id="formMessage"></p>
+        </section>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Ephrem Sahle</p>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/form-validation.js"></script>
+</body>
+</html>

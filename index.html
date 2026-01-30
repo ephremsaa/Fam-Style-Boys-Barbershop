@@ -3,148 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ephrem Sahle | Web Developer</title>
+    <title>Fam Style Boys Barbershop | Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Segoe+UI&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <!-- Theme Toggle -->
-        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-            <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i>
-        </button>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">💈 Fam Style</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <button id="theme-toggle">☽ Dark</button>
+                <div class="hamburger">☰</div>
+            </div>
+        </nav>
+    </header>
 
-        <!-- Navigation -->
-        <header class="header">
-            <nav class="navbar">
-                <div class="nav-container">
-                    <a href="index.html" class="logo">
-                        <span class="logo-text">Ephrem</span><span class="logo-highlight">Sahle</span>
-                    </a>
-                    
-                    <button class="menu-toggle" aria-label="Toggle menu">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </button>
-                    
-                    <ul class="nav-menu">
-                        <li><a href="index.html" class="nav-link active">Home</a></li>
-                        <li><a href="about.html" class="nav-link">About</a></li>
-                        <li><a href="projects.html" class="nav-link">Projects</a></li>
-                        <li><a href="contact.html" class="nav-link">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+    <main>
+        <section class="hero reveal">
+            <h1>Fam Style Boys Barbershop</h1>
+            <p>Fresh Cuts for the Whole Fam</p>
+            <a href="contact.html" class="btn">Book Now</a>
+        </section>
 
-        <!-- Main Content -->
-        <main class="main-content">
-            <!-- Hero Section -->
-            <section class="hero">
-                <div class="hero-content">
-                    <div class="hero-text">
-                        <h1 class="hero-title">
-                            Hi, I'm <span class="text-highlight">Ephrem Sahle</span>
-                        </h1>
-                        <h2 class="hero-subtitle">Beginner Web Developer</h2>
-                        <p class="hero-description">
-                            Passionate about creating clean, responsive websites using vanilla technologies. 
-                            Currently learning and building projects to master HTML, CSS, and JavaScript.
-                        </p>
-                        <div class="hero-buttons">
-                            <a href="projects.html" class="btn btn-primary">
-                                View My Work <i class="fas fa-arrow-right"></i>
-                            </a>
-                            <a href="contact.html" class="btn btn-secondary">
-                                Get In Touch
-                            </a>
-                        </div>
-                    </div>
-                    <div class="hero-image">
-                        <div class="image-wrapper">
-                            <img src="images/profile.png" alt="Ephrem Sahle - Web Developer" class="profile-img">
-                            <div class="image-border"></div>
-                        </div>
-                    </div>
+        <section class="container">
+            <div class="grid">
+                <div class="card reveal">
+                    <h3>Classic Cuts</h3>
+                    <p>Timeless styles for men and boys.</p>
                 </div>
-            </section>
-
-            <!-- Skills Preview -->
-            <section class="skills-preview">
-                <div class="section-header">
-                    <h2 class="section-title">My Skills</h2>
-                    <p class="section-subtitle">Technologies I'm currently mastering</p>
+                <div class="card reveal">
+                    <h3>Family Friendly</h3>
+                    <p>A safe, warm environment for kids.</p>
                 </div>
-                
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <div class="skill-icon">
-                            <i class="fab fa-html5"></i>
-                        </div>
-                        <h3 class="skill-title">HTML5</h3>
-                        <p class="skill-description">Semantic markup, accessibility, and modern HTML features</p>
-                    </div>
-                    
-                    <div class="skill-card">
-                        <div class="skill-icon">
-                            <i class="fab fa-css3-alt"></i>
-                        </div>
-                        <h3 class="skill-title">CSS3</h3>
-                        <p class="skill-description">Responsive design, flexbox, grid, and CSS animations</p>
-                    </div>
-                    
-                    <div class="skill-card">
-                        <div class="skill-icon">
-                            <i class="fab fa-js"></i>
-                        </div>
-                        <h3 class="skill-title">JavaScript</h3>
-                        <p class="skill-description">DOM manipulation, event handling, and vanilla JS development</p>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3 class="footer-title">Ephrem Sahle</h3>
-                    <p class="footer-text">Beginner Web Developer from Addis Ababa, Ethiopia</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h4 class="footer-subtitle">Contact</h4>
-                    <p class="footer-text">
-                        <i class="fas fa-envelope"></i> ephremsahle7@gmail.com
-                    </p>
-                    <p class="footer-text">
-                        <i class="fas fa-phone"></i> +251-954-902-680
-                    </p>
-                </div>
-                
-                <div class="footer-section">
-                    <h4 class="footer-subtitle">Quick Links</h4>
-                    <div class="footer-links">
-                        <a href="index.html" class="footer-link">Home</a>
-                        <a href="about.html" class="footer-link">About</a>
-                        <a href="projects.html" class="footer-link">Projects</a>
-                        <a href="contact.html" class="footer-link">Contact</a>
-                    </div>
+                <div class="card reveal">
+                    <h3>Established 2024</h3>
+                    <p>Your new favorite local spot in Addis Ababa.</p>
                 </div>
             </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2023 Ephrem Sahle. All rights reserved.</p>
-            </div>
-        </footer>
-    </div>
+        </section>
+    </main>
 
+    <footer>
+        <p>&copy; 2026 Fam Style Boys Barbershop.</p>
+        <small>Addis Ababa, Ethiopia | +251-954-902-680</small>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 </html>
